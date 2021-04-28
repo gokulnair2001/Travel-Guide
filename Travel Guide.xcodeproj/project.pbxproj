@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5558E1EF263981290033F8F2 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 5558E1EE263981290033F8F2 /* locations.json */; };
+		5558E1F1263981300033F8F2 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 5558E1F0263981300033F8F2 /* tips.json */; };
+		5558E1F5263993060033F8F2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558E1F4263993060033F8F2 /* Location.swift */; };
+		5558E1F72639E9910033F8F2 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558E1F62639E9910033F8F2 /* Places.swift */; };
 		55828E2926397C9300D3ADB7 /* Travel_GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55828E2826397C9300D3ADB7 /* Travel_GuideApp.swift */; };
 		55828E2B26397C9300D3ADB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55828E2A26397C9300D3ADB7 /* ContentView.swift */; };
 		55828E2D26397C9400D3ADB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55828E2C26397C9400D3ADB7 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5558E1EE263981290033F8F2 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		5558E1F0263981300033F8F2 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		5558E1F4263993060033F8F2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		5558E1F62639E9910033F8F2 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 		55828E2526397C9300D3ADB7 /* Travel Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55828E2826397C9300D3ADB7 /* Travel_GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel_GuideApp.swift; sourceTree = "<group>"; };
 		55828E2A26397C9300D3ADB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,8 +62,12 @@
 			children = (
 				55828E2826397C9300D3ADB7 /* Travel_GuideApp.swift */,
 				55828E2A26397C9300D3ADB7 /* ContentView.swift */,
+				5558E1F62639E9910033F8F2 /* Places.swift */,
+				5558E1F4263993060033F8F2 /* Location.swift */,
 				55828E2C26397C9400D3ADB7 /* Assets.xcassets */,
 				55828E3126397C9400D3ADB7 /* Info.plist */,
+				5558E1EE263981290033F8F2 /* locations.json */,
+				5558E1F0263981300033F8F2 /* tips.json */,
 				55828E2E26397C9400D3ADB7 /* Preview Content */,
 			);
 			path = "Travel Guide";
@@ -127,6 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				55828E3026397C9400D3ADB7 /* Preview Assets.xcassets in Resources */,
+				5558E1F1263981300033F8F2 /* tips.json in Resources */,
+				5558E1EF263981290033F8F2 /* locations.json in Resources */,
 				55828E2D26397C9400D3ADB7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				55828E2B26397C9300D3ADB7 /* ContentView.swift in Sources */,
+				5558E1F5263993060033F8F2 /* Location.swift in Sources */,
 				55828E2926397C9300D3ADB7 /* Travel_GuideApp.swift in Sources */,
+				5558E1F72639E9910033F8F2 /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
