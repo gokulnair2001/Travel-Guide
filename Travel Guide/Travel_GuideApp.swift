@@ -9,10 +9,25 @@ import SwiftUI
 
 @main
 struct Travel_GuideApp: App {
+  @StateObject var locations = Locations()
+    
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                ContentView(location: Location.example)
+            TabView {
+                NavigationView {
+                    ContentView(location: locations.primary)
+                }.tabItem {
+                    Image(systemName: "airplane")
+                    Text("Discover")
+                }
+                NavigationView {
+                    worldView()
+                }
+                .tabItem {
+                    Image(systemName: "star.fill")
+                    Text("Locations")
+                }
+                .environmentObject(locations)
             }
         }
     }

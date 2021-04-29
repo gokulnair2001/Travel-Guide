@@ -15,6 +15,7 @@
 		55828E2B26397C9300D3ADB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55828E2A26397C9300D3ADB7 /* ContentView.swift */; };
 		55828E2D26397C9400D3ADB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55828E2C26397C9400D3ADB7 /* Assets.xcassets */; };
 		55828E3026397C9400D3ADB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55828E2F26397C9400D3ADB7 /* Preview Assets.xcassets */; };
+		5596B378263A675900AE96EF /* worldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5596B377263A675900AE96EF /* worldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		55828E2C26397C9400D3ADB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55828E2F26397C9400D3ADB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55828E3126397C9400D3ADB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5596B377263A675900AE96EF /* worldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				55828E2826397C9300D3ADB7 /* Travel_GuideApp.swift */,
+				5596B377263A675900AE96EF /* worldView.swift */,
 				55828E2A26397C9300D3ADB7 /* ContentView.swift */,
 				5558E1F62639E9910033F8F2 /* Places.swift */,
 				5558E1F4263993060033F8F2 /* Location.swift */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55828E2B26397C9300D3ADB7 /* ContentView.swift in Sources */,
+				5596B378263A675900AE96EF /* worldView.swift in Sources */,
 				5558E1F5263993060033F8F2 /* Location.swift in Sources */,
 				55828E2926397C9300D3ADB7 /* Travel_GuideApp.swift in Sources */,
 				5558E1F72639E9910033F8F2 /* Places.swift in Sources */,
