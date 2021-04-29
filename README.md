@@ -3,15 +3,16 @@
 
 # Topics Covered 📒
 1. List 
-2. Staks
-3. @EnvironmentObject
-4. @SateObject
-5. Text
-6. Labels
-7. JSON Parsing
-8. Navigation Link
-9. MapKit
-10. Various element customisation too.
+3. Staks
+4. TabBar View
+5. @EnvironmentObject
+6. @SateObject
+7. Text
+8. Labels
+9. JSON Parsing
+10. Navigation Link
+11. MapKit
+12. Various element customisation too.
 
 
 # Snapshots 📸
