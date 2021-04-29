@@ -1,8 +1,7 @@
 # Travel Guide
-A SwiftUI based Travel guide app!
+* Travel Guide is an basic SwiftUI based app which consists of various basic elemnts of SwiftUI used in it. This app will help you to make your basics strong. Recomended for beginners!
 
 # Topics Covered 📒
-* Travel Guide is an basic SwiftUI based app which consists of various basic elemnts of SwiftUI used in it. This app will help you to make your basics strong. 
 1. List 
 2. Staks
 3. @EnvironmentObject
