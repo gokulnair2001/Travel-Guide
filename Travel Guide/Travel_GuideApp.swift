@@ -15,11 +15,14 @@ struct Travel_GuideApp: App {
         WindowGroup {
             TabView {
                 NavigationView {
-                    ContentView(location: locations.primary)
+                    //ContentView(location: locations.primary)
+                    ListView()
                 }.tabItem {
                     Image(systemName: "airplane")
                     Text("Discover")
                 }
+                .environmentObject(locations)
+                
                 NavigationView {
                     worldView()
                 }
@@ -28,6 +31,15 @@ struct Travel_GuideApp: App {
                     Text("Locations")
                 }
                 .environmentObject(locations)
+                
+                NavigationView {
+                    TipsView()
+                }
+                .tabItem {
+                    Image(systemName: "lasso.sparkles")
+                    Text("Tips")
+                }
+                
             }
         }
     }
