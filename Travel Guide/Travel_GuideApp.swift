@@ -40,7 +40,7 @@ struct Travel_GuideApp: App {
                     Text("Tips")
                 }
                 
-            }
+            }.accentColor(.orange)
         }
     }
 }
