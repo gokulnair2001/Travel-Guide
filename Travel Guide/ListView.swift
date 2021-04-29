@@ -18,18 +18,15 @@ struct ListView: View {
     }
     
     var body: some View {
-        NavigationLink(
-            destination: ContentView(location: locations.places[0])){
+       
             List(loc, id: \.name) {
                 loca in
+                NavigationLink(
+                    destination: ContentView(location: loca)){
                 Text(loca.name)
-                Spacer()
-                Image(systemName: "chevron.right")
-                    .foregroundColor(.blue)
-                    .padding(.trailing)
             }
-            .navigationTitle("Travelouge")
         }
+            .navigationTitle("Travelouge")
     }
 }
 
